@@ -55,14 +55,26 @@ body{
   color: black;
   font-size: 1.30333333vw;
   font-weight:800;
-  
+}
+
+/*Heading*/
+.heading1 {
+  position:relative;
+  vertical-align:left;
+  color:#0047AB;
+  text-align:justify;
+  margin-left:10.183333vw;
+  font-size:.766666vw;
+  max-width:30.66667vw;
+  min-width:7.66666vw;
 }
 
 /*resume*/
 iframe{
     position: absolute;
+    width: 80%;
     height:100%;
-    width: 100%;
-    border:none;
+    margin-left:10.183333vw;
+    border:0;
 }
 

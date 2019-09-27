@@ -63,14 +63,10 @@ body{
   display: none;
   }
   
-img {
-  vertical-align: middle;
-  }
-  
 .slideshow-container {
-    max-width: 65.166667vw;
+    max-width: 30.666666vw;
     position: relative;
-    margin: auto;
+    margin-left: 14.183333vw;
   }
   
 .active {
