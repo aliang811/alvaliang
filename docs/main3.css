@@ -66,7 +66,7 @@ body{
   /* Create 2 equal columns that floats next to each other */
   .column {
     float:left;
-    width: 50%;
+    width: 40%;
   }
   
 
