@@ -124,7 +124,7 @@ img {
   position:relative;
 
   color:black;
-  margin-left:14.183333vw;font-size:2.3vw;max-width:30.66667vw;min-width:7.66666vw;
+  margin-left:14.183333vw;font-size:1.15vw;max-width:30.66667vw;min-width:7.66666vw;
   line-height:1.6;
   text-align:justify;
 }
@@ -158,9 +158,11 @@ img {
   position:relative;
   text-align:right;
   height:23vw;width:23vw;
+  max-width:30.66667vw;min-width:7.66666vw;
 }
 .gmap_canvas{
   overflow:hidden;
   background:none!important;
   height:23vw;width:23vw;
+  max-width:30.66667vw;min-width:7.66666vw;
 }
