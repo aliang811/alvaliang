@@ -60,7 +60,7 @@ body{
 
 /*portfolio formatting*/
 .row {
-  position:absolute;
+  position:relative;
   left:40vw;
   }
   
