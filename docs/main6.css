@@ -57,4 +57,31 @@ body{
   font-weight:800;
   
 }
+.heading{
+  color:#0047AB;
+  font-size:.766666vw;
+  text-align:justify;
+  margin-left:2.3vw;
+}
 
+.paragraphtext{
+  color:black;
+  font-size:1.15vw;
+  text-align:justify;
+  margin-left:2.3vw;
+  max-width:80.66667vw;
+  min-width:7.66666vw;
+}
+
+img.center{
+  display:block;
+  margin: 0 auto;
+  padding-top:1.15vw;
+  padding-bottom:1.15vw;
+}
+
+figcaption.center{
+  text-align:center;
+  font-size:1.15vw;
+  font-weight:800;
+}

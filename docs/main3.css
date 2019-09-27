@@ -59,17 +59,8 @@ body{
 }
 
 /*portfolio formatting*/
-.row {
-margin-left:14.183333vw;
-  }
-  
-  /* Create 2 columns that float next to each other */
-.column {
-  float:left;
-  width: 40%;
-}  
 
-  /* Content */
+/* Content */
 .content {
   background-color: white;
   text-align: center;
@@ -78,10 +69,4 @@ margin-left:14.183333vw;
   padding-bottom: 1.15vw;
 }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
 
