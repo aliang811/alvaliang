@@ -20,14 +20,17 @@ body{
 /*name*/
 .persistname{
     position: absolute;
-    top:2.3vw;left:6.9vw;font-size:.76666vw;
+    top:2.3vw;
+    left:6.9vw;
+    font-size:.76666vw;
 
 }
 
 /*navigation bar*/
 .topnav {
     position:absolute;
-    top:3.45vw;right:1.5333333vw;
+    top:3.45vw;
+    right:1.5333333vw;
     overflow: hidden;
     background-color: white;
   }
@@ -35,7 +38,8 @@ body{
   .topnav a {
     color: black;
     text-align: center;
-    padding:1.226666666vw 1.38vw;font-size:1.15vw;
+    padding:1.226666666vw 1.38vw;
+    font-size:1.15vw;
     text-decoration: none;
 
   
@@ -117,20 +121,23 @@ img {
 /*Heading and Text*/
 .heading1 {
   position:relative;
-
   vertical-align:left;
-
   color:#0047AB;
-
   text-align:justify;
-  margin-left:14.183333vw;font-size:.766666vw;max-width:30.66667vw;min-width:7.66666vw;
+  margin-left:14.183333vw;
+  font-size:.766666vw;
+  max-width:30.66667vw;
+  min-width:7.66666vw;
 }
 
 .paragraphtext1{
   position:relative;
 
   color:black;
-  margin-left:14.183333vw;font-size:1.15vw;max-width:30.66667vw;min-width:7.66666vw;
+  margin-left:14.183333vw;
+  font-size:1.15vw;
+  max-width:30.66667vw;
+  min-width:7.66666vw;
   line-height:1.6;
   text-align:justify;
 }
@@ -144,31 +151,47 @@ img {
   color:#0047AB;
 
   text-align:justify;
-  margin-left:3.83333vw;font-size:.766666vw;max-width:30.66667vw;min-width:7.66666vw;
+  margin-left:3.83333vw;
+  font-size:.766666vw;
+  max-width:30.66667vw;
+  min-width:7.66666vw;
 }
 
 .paragraphtext2{
   position:relative;
-
   vertical-align:left;
-
   color:black;
-
   text-align:justify;
+  margin-left:3.83333vw;
+  font-size:1.15vw;
+  max-width:30.66667vw;
+  min-width:7.66666vw;
+  padding-bottom:1.5333333vw;
+}
 
-  margin-left:3.83333vw;font-size:1.15vw;max-width:30.66667vw;min-width:7.66666vw;padding-bottom:1.5333333vw;
+.ytube{
+  position:relative;
+  vertical-align:left;
+  margin-left:3.83333vw;
+  font-size:1.15vw;
+  height:26.83333vw;
+  width:23vw;
+  max-width:23vw;
+  min-width:26,833333vw;
 }
 
 /*google maps*/
 .mapouter{
   position:relative;
   text-align:right;
-  height:23vw;width:23vw;
+  height:23vw;
+  width:23vw;
 }
 .gmap_canvas{
   overflow:hidden;
   background:none!important;
-  height:23vw;width:23vw;
+  height:23vw;
+  width:23vw;
 }
 
 
