@@ -58,30 +58,32 @@ body{
   
 }
 
-/*image carousel*/
-.mySlides {
-  display: none;
+/*portfolio formatting*/
+  .row {
+    margin-left: 150px;
   }
   
-.slideshow-container {
-    max-width: 30.666666vw;
-    position: relative;
-    margin-left: 14.183333vw;
-  }
-  
-.active {
-    background-color: #717171;
-  }
-  
-@-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-@keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
+  /* Create 2 equal columns that floats next to each other */
+  .column {
+    float:left;
+    width: 40%;
   }
   
 
+  
+  /* Content */
+  .content {
+    background-color: white;
+    text-align: center;
+    color:#0047AB;
+    font-size:1.15vw;
+    padding-bottom: 1.15vw;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
 
