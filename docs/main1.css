@@ -101,6 +101,12 @@ img {
 
 }
 
+.column2 {
+  float: left;
+  width: 34%;
+  padding: .7666666vw;
+
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
