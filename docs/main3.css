@@ -60,8 +60,7 @@ body{
 
 /*portfolio formatting*/
   .row {
-    margin-right: 50px;
-    margin-left:50px;
+    margin-right: 10px;
   }
   
   /* Create 2 equal columns that floats next to each other */
