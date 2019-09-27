@@ -34,16 +34,21 @@ body{
     overflow: hidden;
     background-color: white;
   }
-  
+
+@media only screen and (max-width: 768px)
+{
+  /*for phones*/
+  .topnav{
+    top:3.45vw;
+    right:5vw;
+  }
+}
   .topnav a {
     color: black;
     text-align: center;
     padding:1.226666666vw 1.38vw;
     font-size:1.15vw;
-    text-decoration: none;
-
-  
-    
+    text-decoration: none; 
   }
   
   .topnav a:hover {
@@ -132,7 +137,6 @@ img {
 
 .paragraphtext1{
   position:relative;
-
   color:black;
   margin-left:14.183333vw;
   font-size:1.15vw;
@@ -167,17 +171,6 @@ img {
   max-width:30.66667vw;
   min-width:7.66666vw;
   padding-bottom:1.5333333vw;
-}
-
-.ytube{
-  position:relative;
-  vertical-align:left;
-  margin-left:3.83333vw;
-  font-size:1.15vw;
-  height:26.83333vw;
-  width:23vw;
-  max-width:23vw;
-  min-width:26,833333vw;
 }
 
 /*google maps*/
