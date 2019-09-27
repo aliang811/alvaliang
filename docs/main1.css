@@ -176,9 +176,9 @@ img {
 .slideshow-container{max-width:65.166667vw;}
 .column{padding:.7666666vw;}
 .heading1{margin-left:14.183333vw;font-size:.766666vw;max-width:30.66667vw;min-width:7.66666vw;}
-.paragraphtext1{margin-left:14.183333vw;font-size:.766666vw;max-width:30.66667vw;min-width:7.66666vw;}
+.paragraphtext1{margin-left:14.183333vw;font-size:1.15vw;max-width:30.66667vw;min-width:7.66666vw;}
 .heading2{margin-left:3.83333vw;font-size:.766666vw;max-width:30.66667vw;min-width:7.66666vw;}
-.paragraphtext2{margin-left:3.83333vw;font-size:.766666vw;max-width:30.66667vw;min-width:7.66666vw;padding-bottom:1.5333333vw;}
+.paragraphtext2{margin-left:3.83333vw;font-size:1.15vw;max-width:30.66667vw;min-width:7.66666vw;padding-bottom:1.5333333vw;}
 .mapouter{height:23vw;width:23vw;}
 .gmap_canvas{height:23vw;width:23vw;}
 }
