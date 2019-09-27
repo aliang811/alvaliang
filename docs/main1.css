@@ -172,13 +172,13 @@ img {
   width:300px}
 
 /* On smaller screens, decrease text size */
- 
+@media only screen and (max-width: 800px) {
 .logos{padding:2.3vw 2.3vw 2.3vw 2.3vw}
 .persistname{top:2.3vw;left:6.9vw;font-size:.76666vw}
 .topnav{top:3.45vw;right:1.5333333vw}
-.topnav a{padding:1.226666666vw 1.38vw;font-size:1.15vw}
-.topnav a:hover{font-size:1.38vw}
-.topnav a.active{font-size:1.30333333vw}
+.topnav a{padding:0.3vw 0.4vw;font-size:0.5vw}
+.topnav a:hover{font-size:0.5vw}
+.topnav a.active{font-size:0.5vw}
 .slideshow-container{max-width:65.166667vw}
 .column{padding:.7666666vw}
 .heading1{margin-left:14.183333vw;font-size:.766666vw;max-width:30.66667vw;min-width:7.66666vw}
@@ -187,3 +187,4 @@ img {
 .paragraphtext2{margin-left:3.83333vw;font-size:.766666vw;max-width:30.66667vw;min-width:7.66666vw;padding-bottom:1.5333333vw}
 .mapouter{height:23vw;width:23vw}
 .gmap_canvas{height:23vw;width:23vw}
+}

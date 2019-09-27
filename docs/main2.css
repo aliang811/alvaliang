@@ -61,11 +61,11 @@ body{
   }
 
   /* On smaller screens, decrease text size */
- 
+@media only screen and (max-width: 20000px) {
   .logos{padding:2.3vw 2.3vw 2.3vw 2.3vw}
   .persistname{top:2.3vw;left:6.9vw;font-size:.76666vw}
   .topnav{top:3.45vw;right:1.5333333vw}
   .topnav a{padding:1.226666666vw 1.38vw;font-size:1.15vw}
   .topnav a:hover{font-size:1.38vw}
   .topnav a.active{font-size:1.30333333vw}
-  
+  }
