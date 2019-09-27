@@ -85,24 +85,81 @@ img {
       .text {font-size: 11px}
     }
 
+/* Create two equal columns that floats next to each other */
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 /*Heading and Text*/
-.headings {
+.heading1 {
   position:relative;
-  margin-left: 200px;
+  margin-left: 185px;
   vertical-align:left;
-	font-size:14px;
+	font-size:10px;
   color:#0047AB;
   max-width: 400px;
  	min-width: 100px;
   text-align:justify;
 }
 
-.paragraphtext{
+.paragraphtext1{
   position:relative;
-  margin-left:200px;
+  margin-left:185px;
 	font-size:15px;
   color:black;
  	max-width: 400px;
  	min-width: 100px;
   text-align:justify;
 }
+
+/*Heading 2 and Text 2*/
+.heading2 {
+  position:relative;
+  margin-left:50px;
+  vertical-align:left;
+	font-size:10px;
+  color:#0047AB;
+  max-width: 400px;
+ 	min-width: 100px;
+  text-align:justify;
+}
+
+.paragraphtext2{
+  position:relative;
+  margin-left:50px;
+  vertical-align:left;
+	font-size:15px;
+  color:black;
+ 	max-width: 400px;
+ 	min-width: 100px;
+  text-align:justify;
+  padding-bottom:20px;
+}
+
+/*google maps*/
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:300px;
+  width:300px
+}
+.gmap_canvas{
+  overflow:hidden;
+  background:none!important;
+  height:300px;
+  width:300px}
