@@ -68,7 +68,7 @@ iframe{
     border:none;
 }
 
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 2000px) {
   .logos{padding:2.3vw 2.3vw 2.3vw 2.3vw}
   .persistname{top:2.3vw;left:6.9vw;font-size:.76666vw}
   .topnav{top:3.45vw;right:1.5333333vw}
