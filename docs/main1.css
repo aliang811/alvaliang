@@ -157,7 +157,7 @@ img {
 .mapouter{
   position:relative;
   text-align:right;
-  height:23vw;width:23vw;
+  height:12vw;width:12vw;
   max-width:30.66667vw;min-width:7.66666vw;
 }
 .gmap_canvas{
