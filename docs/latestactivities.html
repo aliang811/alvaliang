@@ -8,7 +8,7 @@
         <body>
             <!--logo-->
                 <div class = "logos">
-                    <a href = "index.html">
+                    <a href = "homepage.html">
                         <img style = "height:3.0666666vw; width:3.06666666vw;" src = "personallogo.PNG" alt = "alvalogo">
                     </a>
                 </div>
@@ -20,7 +20,7 @@
                 
             <!--navigation-->
                 <div class="topnav">
-                        <a href="/alvaliang/index.html">Home</a>
+                        <a href="/alvaliang/homepage.html">Home</a>
                         <a href="/alvaliang/resume.html">Resume</a>
                         <a href="/alvaliang/portfolio.html">Project Portfolio</a>
                         <a class = "active" href="/alvaliang/latestactivities.html">Latest Activities</a>
@@ -39,6 +39,76 @@
                 <div class = "paragraphtext">
                         <p>Roche Molecular Diagnostics: Calibration Coordinator</p>
                 <img class = "center" src = "roche pleasanton.jpg" style = "width:40%">                
+                </div>
+
+                <div class = "subheading">
+                    <h1>Recently Travelled To:</h1>
+                </div> 
+
+                <div class = "paragraphtext">
+                    <p>Vancouver, Canada</p>
+
+                <!--picture carousel-->
+                <div class="slideshow-container">
+                        
+                <div class="mySlides fade">
+                    <img class = "center" src="canada1.jpg" style="width:50%">                  
+                </div>
+                    
+                <div class="mySlides fade">                   
+                    <img class = "center" src="canada2.jpg" style="width:50%">                   
+                </div>
+
+                <div class="mySlides fade">
+                    <img class = "center" src="canada3.jpg" style="width:50%">                  
+                </div>
+                        
+                <div class="mySlides fade">                   
+                    <img class = "center" src="canada4.jpg" style="width:50%">                   
+                </div>  
+                
+                <div class="mySlides fade">
+                    <img class = "center" src="canada5.jpg" style="width:50%;transform:rotate(90deg);">                  
+                    </div>
+                        
+                <div class="mySlides fade">                   
+                    <img class = "center" src="canada6.jpg" style="width:50%;transform:rotate(90deg);">                   
+                </div>
+             </div>
+
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+            </div>
+                    
+            <script>
+                var slideIndex = 0;
+                showSlides();
+                    
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                    }
+
+                    slideIndex++;
+                      if (slideIndex > slides.length) {slideIndex = 1}    
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                            }
+                        slides[slideIndex-1].style.display = "block";  
+                        dots[slideIndex-1].className += " active";
+                        setTimeout(showSlides, 5000); // Change image every 5 seconds
+                }
+             </script>             
                 </div>
 
                 <div class = "subheading">

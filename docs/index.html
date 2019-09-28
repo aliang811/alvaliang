@@ -1,151 +1,97 @@
 <!DOCTYPE html>
 <html>
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel = "stylesheet" href="main1.css">
-        <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <body>
-            <!--logo-->
-            <div class = "logos">
-                <a href = "index.html">
-                    <img style = "height:3.0666666vw; width:3.06666666vw;" src = "personallogo.PNG" alt = "alvalogo">
-                </a>
-            </div>
+        <link rel = "stylesheet" href="main6.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: lato, sans-serif;
+}
 
-            <!--name-->
-            <div class = "persistname">
-                <h1 style = "font-weight:100">Alva Liang</h1>
-            </div>
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("heropage.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 4s; /* Firefox < 16 */
+        -ms-animation: fadein 4s; /* Internet Explorer */
+         -o-animation: fadein 4s; /* Opera < 12.1 */
+            animation: fadein 4s;
+}
 
-            <!--navigation-->
-            <div class="topnav">
-                <a class = "active" href="https://aliang811.github.io/alvaliang/">Home</a>
-                <a href="https://aliang811.github.io/alvaliang/resume.html">Resume</a>
-                <a href="https://aliang811.github.io/alvaliang/portfolio.html">Project Portfolio</a>
-                <a href="https://aliang811.github.io/alvaliang/latestactivities.html">Latest Activities</a>
-                <a href="https://aliang811.github.io/alvaliang/contactme.html">Contact Me</a>
-            </div>
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
 
-            <!--picture carousel-->
-            <div class="slideshow-container">
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+}
 
-                <div class="mySlides fade">
-                    <img src="firstpichome.jpg" style="width:100%">
-                </div>
-                    
-                <div class="mySlides fade">
-                    <img src="secondpichome.jpg" style="width:100%">                  
-                </div>
-                    
-                <div class="mySlides fade">                   
-                    <img src="homepagepic3.jpg" style="width:100%">                   
-                </div>
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
 
-                <div class="mySlides fade">
-                    <img src="homepagepic4.jpg" style="width:100%">                  
-                </div>
-                        
-                <div class="mySlides fade">                   
-                    <img src="homepagepic5.jpg" style="width:100%">                   
-                </div>    
-             </div>
 
-            <br>
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 
-            <div style="text-align:center">
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-            </div>
-                    
-            <script>
-                var slideIndex = 0;
-                showSlides();
-                    
-                function showSlides() {
-                    var i;
-                    var slides = document.getElementsByClassName("mySlides");
-                    var dots = document.getElementsByClassName("dot");
-                    for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";  
-                    }
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 
-                    slideIndex++;
-                      if (slideIndex > slides.length) {slideIndex = 1}    
-                        for (i = 0; i < dots.length; i++) {
-                            dots[i].className = dots[i].className.replace(" active", "");
-                            }
-                        slides[slideIndex-1].style.display = "block";  
-                        dots[slideIndex-1].className += " active";
-                        setTimeout(showSlides, 5000); // Change image every 5 seconds
-                }
-             </script>
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 
-            <!--Two Column Configuration-->
-             <div class = "row">
-                <div class = "column">
-                <!--Heading 1-->
-                <div class = "heading1">
-                    <h1> Designing, Building, and Learning </h1>
-                </div>
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
 
-                <!--Paragraphs-->
-                <div class = "paragraphtext1">
-                    <p>My name is Alva Liang. I am a bioengineer with an interest in biomechanical devices, such as prosthetics, orthotics, and exoskeletons. I am also exploring the medical device space. I am passionate about designing and creating devices that are human-centered, accessible, and affordable. I am adept with computer-aided design, rapid prototyping tools, and I have had experience working in biotechnology companies. </p>
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+</style>
+</head>
+<body>
 
-                    <p>I graduated from the University of California, Berkeley with a Master of Engineering degree in Bioengineering (Class of 2019). During my time at Berkeley, I worked in collaboration with other Master of Engineering students for a hand exoskeleton project as well as a drumming prosthetic project. </p>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">I am Alva Liang</h1>
+    <p>Bioengineer</p>
+    <button><a href = "/alvaliang/homepage.html" style="text-decoration:none;color:black">Explore</a></button>
+  </div>
+</div>
 
-                    <p>I also graduated from the University of California, San Diego with a Bachelors of Science degree in Bioengineering (Class of 2018). Throughout my experience at San Diego, I worked on multiple projects to build my foundational knowledge and develop my technical skillset.</p>
 
-                    <p>My most recent experience was at Roche Molecular Diagnostics as a Development Process and Support intern, where I am helping the Process and Support team streamline onboarding and training processes, assisting in the evaluation of an electronic laboratory notebook (ELN) through coordinating workshops and gathering user feedback, migrating the team's SharePoint to a new website, and creating user requirements for the implementation of a new electronic system.</p>
-
-                    <p>I am currently continuing at Roche Molecular Diagnostics as a Calibration Coordinator. </p>
-
-                    <p>In my free time, I like to go to the gym, breakdance, play video games, and learn new skills. In the past, I have learned how to use Adobe Illustrator as a tool to help me create lasercut keychains to sell online and at local events. I am currently familiarizing myself with HTML and CSS to improve this website, self-learning the programming language, Python, and tinkering with microcontrollers. </p>
-                </div>
-                </div>
-                <div class = "column2">
-
-                <!--Heading 2-->
-                    <div class = "heading2">
-                        <h1> Weekly Fun Fact! </h1>
-                    </div>
-                    
-                <!--Text 2-->
-                    <div class = "paragraphtext2">
-                        <p>I have not travelled outside of the United States ever since around 2005... until last year! In 2018, I travelled internationally to Korea, Hong Kong, Macau, China, and Costa Rica! In 2019, I travelled internationally to Hong Kong (again) and Canada.</p>
-                    </div>
-                                
-                <!--Heading 3-->
-                    <div class = "heading2">
-                        <h1> Song of the Week </h1>
-                     </div>
-                                    
-                <!--Text 3-->
-                    <div class = "heading2">
-                            <iframe style ="padding-bottom:1.5333vw" src="https://www.youtube.com/embed/3ymwOvzhwHs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
-                    </div>
-                
-                <!--Heading 4-->
-                    <div class = "heading2">
-                        <h1>Restaurant Recommendation of the Week</h1>
-                    </div>
-                
-                <!--Text 4-->
-                    <div class = "paragraphtext2">
-                        <div class="mapouter">
-                            <div class="gmap_canvas">
-                                <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=kaide%20sushi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </body>
-    </head>
-<html>
-
-    
+</body>
+</html>
