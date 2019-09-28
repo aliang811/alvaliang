@@ -57,11 +57,20 @@ body{
   font-weight:800;
   
 }
+
 .heading{
   color:#0047AB;
-  font-size:.766666vw;
+  font-size:1.15vw;
   text-align:justify;
   margin-left:2.3vw;
+}
+
+.subheading{
+  color:#0047AB;
+  font-size:0.7666vw;
+  text-align:justify;
+  margin-left:2.3vw;
+  padding-top:3vw;
 }
 
 .paragraphtext{
@@ -73,6 +82,15 @@ body{
   min-width:7.66666vw;
 }
 
+.paragraphlasttext{
+  color:black;
+  font-size:1.15vw;
+  text-align:justify;
+  margin-left:2.3vw;
+  max-width:80.66667vw;
+  min-width:7.66666vw;
+  padding-bottom:10vw;
+}
 img.center{
   display:block;
   margin: 0 auto;
