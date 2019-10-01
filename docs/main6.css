@@ -104,3 +104,19 @@ figcaption.center{
   font-size:1.15vw;
   font-weight:800;
 }
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
