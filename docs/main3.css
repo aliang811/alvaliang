@@ -68,5 +68,58 @@ body{
   font-size:1.15vw;
   padding-bottom: 1.15vw;
 }
-  
 
+.content1 {
+  background-color: white;
+  text-align: center;
+  color:#0047AB;
+  font-size:1.15vw;
+  padding-bottom: 1.15vw;
+}
+  
+.content2 {
+  background-color: white;
+  text-align: center;
+  color:#0047AB;
+  font-size:1.15vw;
+  padding-bottom: 1.15vw;
+}
+  
+.content3 {
+  background-color: white;
+  text-align: center;
+  color:#0047AB;
+  font-size:1.15vw;
+  padding-bottom: 1.15vw;
+}
+  
+.content4 {
+  background-color: white;
+  text-align: center;
+  color:#0047AB;
+  font-size:1.15vw;
+  padding-bottom: 1.15vw;
+}
+
+content:hover{
+  width:30%;
+}
+
+content1:hover{
+width:30%;
+}
+
+content2:hover{
+  width:65%;
+}
+
+content3:hover{
+  width:40%;
+}
+
+content4:hover{
+  width:40%;
+}
+
+
+  
