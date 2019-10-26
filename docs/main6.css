@@ -26,6 +26,13 @@ body{
 
 }
 
+@media only screen and (max-width: 600px) {
+  .persistname {
+    top:5vw;
+    left:8vw;
+  }
+}
+
 /*navigation bar*/
 .topnav {
   position:absolute;
