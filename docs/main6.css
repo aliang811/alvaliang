@@ -69,22 +69,22 @@ body{
   color:#0047AB;
   font-size:1.15vw;
   text-align:justify;
-  margin-left:2.3vw;
+
 }
 
 .subheading{
-  color:#0047AB;
-  font-size:0.7666vw;
+  color:#000000;
+  font-size:16px;
   text-align:justify;
-  margin-left:2.3vw;
-  padding-top:3vw;
+ 
+  padding-top:0vw;
 }
 
 .paragraphtext{
-  color:black;
-  font-size:1.15vw;
+  color:#000000;
+  font-size:22px;
   text-align:justify;
-  margin-left:2.3vw;
+ 
   max-width:80.66667vw;
   min-width:7.66666vw;
 }
@@ -93,7 +93,7 @@ body{
   color:black;
   font-size:1.15vw;
   text-align:justify;
-  margin-left:2.3vw;
+
   max-width:80.66667vw;
   min-width:7.66666vw;
   padding-bottom:10vw;
@@ -124,11 +124,49 @@ figcaption.center{
   outline: 0;
   display: inline-block;
   padding: 10px 25px;
-  color: black;
+  color: #000000;
   background-color: #ddd;
   text-align: center;
   cursor: pointer;
 }
+
+/* Style Vertical Tab */
+.tab {
+  float: left;
+  background-color: #abcdff;
+  width: 15%;
+}
+
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: #000000;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 20px;
+}
+
+.tab button:hover {
+  background-color: #bfd9ff;
+}
+
+.tab button.active {
+  background-color: #e6f0ff;
+}
+
+.tabcontent {
+  float: left;
+  background-color: #e6f0ff;
+  padding: 0px 0px 20px 60px;
+  width: 80%;
+  border-left: none; 
+}
+
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
@@ -137,4 +175,10 @@ figcaption.center{
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+@media only screen and (max-width: 1000px) {
+  .tabcontent{
+    width: 75%;
+  }
 }

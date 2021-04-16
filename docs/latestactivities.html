@@ -29,133 +29,183 @@
                         <a href="/alvaliang/contactme.html">Contact Me</a>
                 </div>
             
-            <!--Heading and Text-->
-                <div class = "heading">
-                    <h1>Latest Activities</h1>
-                </div> 
-
-                <div class = "subheading">
-                        <h1>Currently Working at:</h1>
-                </div> 
-
-                <div class = "paragraphtext">
-                        <p>Roche Molecular Diagnostics: Calibration Coordinator</p>
-                <img class = "center" src = "roche pleasanton.jpg" style = "width:40%">
-                <figcaption class = "center">Credit: www.roche.com</figcaption>                
+                <div class="tab">
+                  <button class="tablinks" onclick="activityheadings(event, 'Current Employment')" id="defaultOpen">Current Employment</button>
+                  <button class="tablinks" onclick="activityheadings(event, 'Travelling')">Travelling</button>
+                  <button class="tablinks" onclick="activityheadings(event, 'Hobbies')">Hobbies</button>
+                  <button class="tablinks" onclick="activityheadings(event, 'Currently Watching')">Currently Watching</button>
+                  <button class="tablinks" onclick="activityheadings(event, 'Games')">Games</button>
                 </div>
-
-                <div class = "subheading">
-                    <h1>Recently Travelled To:</h1>
-                </div> 
-
-                <div class = "paragraphtext">
-                    <p>Vancouver, Canada</p>
-
-                <!--picture carousel-->
-                <div class="slideshow-container">
-                        
-                <div class="mySlides fade">
-                    <img class = "center" src="canada1.jpg" style="width:50%">                  
-                </div>
-                    
-                <div class="mySlides fade">                   
-                    <img class = "center" src="canada2.jpg" style="width:50%">                   
-                </div>
-
-                <div class="mySlides fade">
-                    <img class = "center" src="canada3.jpg" style="width:50%">                  
-                </div>
-                        
-                <div class="mySlides fade">                   
-                    <img class = "center" src="canada4.jpg" style="width:50%">                   
-                </div>  
                 
-                <div class="mySlides fade">
-                    <img class = "center" src="canada5.jpg" style="width:50%;transform:rotate(90deg);">                  
+                
+                <div id="Current Employment" class="tabcontent">
+                    <div class = "subheading">
+                        <h1>Currently Working At:</h1>
+                    </div> 
+                    <div class = "paragraphtext">
+                        <p>Roche Molecular Diagnostics: Calibration Coordinator</p>
+                    <img class = "center" src = "Roche.jpg" style = "width:90%">
+                    <figcaption class = "center">Credit: https://sequencing.roche.com/en/about-us.html</figcaption>                
+                    </div>
+                </div>
+                
+                <div id="Travelling" class="tabcontent heighstyle">
+                    <div class = "subheading">
+                        <h1>Recently Travelled To:</h1>
+                    </div> 
+    
+                    <div class = "paragraphtext">
+                        <p>Vancouver, Canada</p>
+                    </div> 
+
+                    <!--picture carousel-->
+                    <div class="slideshow-container">
+                            
+                    <div class="mySlides fade">
+                        <img class = "center" src="canada1.jpg" style="width:60%">                  
                     </div>
                         
-                <div class="mySlides fade">                   
-                    <img class = "center" src="canada6.jpg" style="width:50%;transform:rotate(90deg);">                   
-                </div>
-             </div>
-
-            <br>
-
-            <div style="text-align:center">
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-                <span class="dot"></span> 
-            </div>
+                    <div class="mySlides fade">                   
+                        <img class = "center" src="canada2.jpg" style="width:60%">                   
+                    </div>
+    
+                    <div class="mySlides fade">
+                        <img class = "center" src="canada3.jpg" style="width:40%">                  
+                    </div>
+                            
+                    <div class="mySlides fade">                   
+                        <img class = "center" src="canada4.jpg" style="width:70%">                   
+                    </div>  
                     
-            <script>
-                var slideIndex = 0;
-                showSlides();
-                    
-                function showSlides() {
-                    var i;
-                    var slides = document.getElementsByClassName("mySlides");
-                    var dots = document.getElementsByClassName("dot");
-                    for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";  
-                    }
-
-                    slideIndex++;
-                      if (slideIndex > slides.length) {slideIndex = 1}    
-                        for (i = 0; i < dots.length; i++) {
-                            dots[i].className = dots[i].className.replace(" active", "");
-                            }
-                        slides[slideIndex-1].style.display = "block";  
-                        dots[slideIndex-1].className += " active";
-                        setTimeout(showSlides, 5000); // Change image every 5 seconds
-                }
-             </script>             
-                </div>
-
-                <div class = "subheading">
-                        <h1>Current Hobbies:</h1>
+                    <div class="mySlides fade">
+                        <img class = "center" src="canada5.jpg" style="width:40%;">                  
+                        </div>
+                            
+                    <div class="mySlides fade">                   
+                        <img class = "center" src="canada6.jpg" style="width:40%;">                   
+                    </div>
                 </div> 
 
-                <div class = "paragraphtext">
-                        <p>Breakdancing and Freestyling</p>
-                <img class = "center" src = "breakdance.jpg" style = "width:40%">
-                <figcaption class = "center">Credit: Howcast via YouTube</figcaption>
-                </div>       
-
-                <div class = "paragraphtext">
-                        <p>Gymming and Fitness</p>
-                <img class = "center" src = "gym.jpg" style = "width:40%">
-                <figcaption class = "center">Credit: www.gym-cypress.com</figcaption>
+                <br>
+    
+                <div style="text-align:center">
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
+                    <span class="dot"></span> 
                 </div>
+                        
+                <script>
+                    var slideIndex = 0;
+                    showSlides();
+                        
+                    function showSlides() {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                        var dots = document.getElementsByClassName("dot");
+                        for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                        }
+    
+                        slideIndex++;
+                          if (slideIndex > slides.length) {slideIndex = 1}    
+                            for (i = 0; i < dots.length; i++) {
+                                dots[i].className = dots[i].className.replace(" active", "");
+                                }
+                            slides[slideIndex-1].style.display = "block";  
+                            dots[slideIndex-1].className += " active";
+                            setTimeout(showSlides, 5000); // Change image every 5 seconds
+                    }
+                </script>  
+                </div>
+                
+                <div id="Hobbies" class="tabcontent" >
+                    <div class = "subheading">
+                        <h1>Current Hobbies:</h1>
+                    </div> 
 
-                <div class = "subheading">
+                    <div class = "paragraphtext">
+                        <p>Breakdancing and Freestyling</p>
+                    <img class = "center" src = "breakdance.jpg" style = "width:60%">
+                    <figcaption class = "center">Credit: Howcast via YouTube</figcaption>
+                    </div>       
+
+                    <div class = "paragraphtext">
+                        <p>Gymming and Fitness</p>
+                    <img class = "center" src = "gym.jpg" style = "width:60%">
+                    <figcaption class = "center">Credit: www.gym-cypress.com</figcaption>
+                    </div>
+                </div>
+                
+                <div id="Currently Watching" class="tabcontent">
+                    <div class = "subheading">
                         <h1>Currently Watching:</h1>
                     </div> 
 
                 <div class = "paragraphtext">
-                        <p>Person of Interest</p>
-                <img class = "center" src = "person-of-interest.jpeg" style = "width:40%">
-                <figcaption class = "center">Credit: indiewire.com</figcaption>
+                        <p>The King: Eternal Monarch</p>
+                <img class = "center" src = "theking.png" style = "width:50%">
+                <figcaption class = "center">Credit: Forbes</figcaption>
                 </div>
 
                 <div class = "paragraphtext">
-                        <p>Black Clover</p>
-                <img class = "center" src = "blackclover.png" style = "width:40%">
+                        <p>Black Clover (Watching and Reading Manga)</p>
+                <img class = "center" src = "blackclover.png" style = "width:50%">
                 <figcaption class = "center">Credit: blackclover.fandom.com</figcaption>
                 </div>
 
-                <div class = "subheading">
-                        <h1>Currently Playing:</h1>
-                </div> 
-
                 <div class = "paragraphtext">
-                        <p>Pokemon Sword</p>
-                <img class = "center" src = "pokemon sword.jpg" style = "width:25%">
-                <figcaption class = "center">Credit: IGN</figcaption>
+                    <p>Tower of God (Watching and Reading Webtoon)</p>
+            <img class = "center" src = "towerofgod.jpeg" style = "width:50%">
+            <figcaption class = "center">Credit: comicbook.com</figcaption>
+            </div>
                 </div>
+                
+                <div id="Games" class="tabcontent">
+                    <div class = "subheading">
+                        <h1>Currently Playing:</h1>
+                    </div> 
 
+                    <div class = "paragraphtext">
+                        <p>Monster Hunter: World</p>
+                    <img class = "center" src = "monsterhunterworld.jpeg" style = "width:70%">
+                    <figcaption class = "center">Credit: Fanatical</figcaption>
+                    </div>
+
+                    <div class = "paragraphtext">
+                        <p>Overwatch</p>
+                    <img class = "center" src = "overwatch.png" style = "width:70%">
+                    <figcaption class = "center">Credit: Blizzard</figcaption>
+                    </div>
+
+                    <div class = "paragraphtext">
+                        <p>Animal Crossing: New Horizons</p>
+                    <img class = "center" src = "animalcrossing.webp" style = "width:70%">
+                    <figcaption class = "center">Credit: CNet.com</figcaption>
+                    </div>
+
+                </div>
+                
+                <script>
+                function activityheadings(evt, hdings) {
+                  var i, tabcontent, tablinks;
+                  tabcontent = document.getElementsByClassName("tabcontent");
+                  for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                  }
+                  tablinks = document.getElementsByClassName("tablinks");
+                  for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                  }
+                  document.getElementById(hdings).style.display = "block";
+                  evt.currentTarget.className += " active";
+                }
+                
+                // Get the element with id="defaultOpen" and click on it
+                document.getElementById("defaultOpen").click();
+                </script>
         </body>
     </head>
 </html>
