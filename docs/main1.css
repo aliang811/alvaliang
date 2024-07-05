@@ -1,7 +1,7 @@
 body{
     @font-face{
       font-family: 'Atop';
-      src:url('fonts/Atop-R99O3.tff') format('tff')};
+      src:url('fonts/Atop-R99O3.ttf') format('ttf')};
 }
 
 @viewport{
