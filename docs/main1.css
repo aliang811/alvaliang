@@ -1,7 +1,11 @@
 body{
-    @font-face{
-      font-family: 'Atop';
-      src:url('fonts/Atop-R99O3.ttf') format('ttf')};
+  @font-face {
+    font-family: 'kg_always_a_good_timeregular';
+    src: url('kgalwaysagoodtime-webfont.woff2') format('woff2'),
+    font-weight: normal;
+    font-style: normal;
+
+}
 }
 
 @viewport{
