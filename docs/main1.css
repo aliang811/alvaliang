@@ -2,6 +2,7 @@ body{
   @font-face {
     font-family: 'kg_always_a_good_timeregular';
     src: url('kgalwaysagoodtime-webfont.woff2') format('woff2'),
+    url('kgalwaysagoodtime-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
